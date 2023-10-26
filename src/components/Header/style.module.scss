@@ -1,0 +1,23 @@
+header {
+    &>div {
+        box-shadow: 2px 7px 10px -9px var(--color-orange);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+
+        &>div {
+            max-width: 250px;
+            width: 100%;
+
+            &>nav {
+                &>ul {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
