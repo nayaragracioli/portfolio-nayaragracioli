@@ -1,0 +1,77 @@
+.techBox {
+    &>div {
+        height: 61vh;
+        max-width: 767px;
+        padding: 1rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+        .infoTech {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .infoName {
+                max-width: 7rem;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .infoText {
+                max-width: 550px;
+                line-height: 24px;
+            }
+        }
+
+        .imgTech {
+            color: var(--white);
+            padding: 1rem 0;
+            max-width: 550px;
+
+            &>ul {
+                display: grid;
+                grid-template-columns: 4fr 4fr 3fr;
+
+
+                &>li {
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 878px) {
+    .techBox {
+        &>div {
+            width: 100%;
+            max-width: 1200px;
+
+            .infoTech {
+                width: 83%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .infoName {
+                    height: 100%;
+                }
+            }
+
+            .imgTech {
+                max-width: 1200px;
+
+                &>ul {
+                    width: 100%;
+                    overflow-x: hidden;
+                }
+            }
+        }
+    }
+}

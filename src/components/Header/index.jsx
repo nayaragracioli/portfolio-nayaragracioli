@@ -10,9 +10,9 @@ export const Header = () => {
                 <div>
                     <nav>
                         <ul>
-                            <li className="paragraph">About me</li>
-                            <li className="paragraph">Projects</li>
-                            <li className="paragraph">Contact</li>
+                            <li><a className="paragraph" href="#aboutme">About me</a></li>
+                            <li><a className="paragraph" href="#projects">Projets</a></li>
+                            <li><a className="paragraph" href="#contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
