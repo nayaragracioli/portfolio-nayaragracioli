@@ -13,7 +13,7 @@
             align-items: flex-start;
             margin: 0 0 0 1rem;
             gap: 15px;
-            margin-top: 448px;
+            margin-top: 340px;
         }
 
         .boxLinks {
@@ -51,6 +51,25 @@
         &>div {
           margin-left: 10px;
           margin-top: 45px;
+        }
+    }
+}
+
+@media(min-width: 746px) {
+    .contactsBox {
+        &>div {
+            width: 600px;
+        }
+    }
+}
+
+
+@media(min-width: 768px) {
+    .contactsBox {
+        &>div {
+            .contactInfo {
+                margin-top: 250px;
+            }
         }
     }
 }

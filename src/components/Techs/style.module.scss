@@ -7,7 +7,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: center;
+        // align-items: center;
         margin-top: 29px;
 
 
@@ -38,7 +38,7 @@
             &>ul {
                 display: grid;
                 grid-template-columns: 4fr 4fr 3fr;
-
+                justify-items: center;
 
                 &>li {
                     margin: 1rem;
@@ -58,28 +58,34 @@
     .techBox {
         &>div {
             margin-top: -22px;
+            margin-left: 10px;
         }
     }
 
 }
 
-
-
-@media (min-width: 878px) {
+@media(min-width: 746px) {
     .techBox {
         &>div {
-            width: 100%;
+          width: 600px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .techBox {
+        &>div {
+            width: 659px;
             max-width: 1200px;
 
             .infoTech {
-                width: 83%;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-
-                .infoName {
-                    height: 100%;
+                .infoText {
+                    max-width: 1400px;
+                    width: 100%;
                 }
+              
+
+              
             }
 
             .imgTech {

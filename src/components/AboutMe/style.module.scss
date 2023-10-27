@@ -80,6 +80,14 @@
     }
 }
 
+@media(min-width: 746px) {
+    .aboutmeBox {
+        &>div {
+          width: 600px;
+        }
+    }
+}
+
 @media(min-width: 768px) {
     .aboutmeBox {
         &>div {
@@ -89,21 +97,15 @@
             align-items: center;
 
             .boxInfo {
-                width: 50%;
-                padding: 0 10px;
+                width: 53%;
+                margin: auto;
 
-                .boxLinks {
-                    &>ul {
-                        min-width: 160px;
-                    }
-
-                    &>p {
-                        line-height: 1.5rem;
-                        margin-bottom: 2rem;
-                    }
-                }
             }
 
+            .boxImg {
+              
+                width: 25%;
+            }
         }
     }
 }
