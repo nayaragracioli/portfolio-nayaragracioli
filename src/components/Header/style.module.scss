@@ -1,6 +1,8 @@
-header {
+.headerBox {
+    // position: fixed;
+    // z-index: 1;
     &>div {
-        box-shadow: 2px 7px 10px -9px var(--color-orange);
+        box-shadow: 2px 7px 10px -9px var(--color-primary);
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -35,9 +37,9 @@ header {
 }
 
 @media(min-width: 1024px) {
-    header {
+    .headerBox {
         &>div {
-            box-shadow: 2px 7px 10px -9px var(--color-orange);
+            box-shadow: 2px 7px 10px -9px var(--color-primary);
             display: flex;
             justify-content: space-around;
             align-items: center;

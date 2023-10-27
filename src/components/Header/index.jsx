@@ -4,7 +4,7 @@ export const Header = () => {
 
     return(
 
-        <header className="container">
+        <header className={`container ${Styles.headerBox}`}>
             <div>
                 <h1 className="title3">Nayara Gracioli</h1>
                 <div>
