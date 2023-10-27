@@ -14,33 +14,7 @@
             flex-direction: column;
             gap: 10px;
 
-            .boxLinks {
-                display: flex;
-                flex-direction: column;
-
-                &>ul {
-                    display: flex;
-                    justify-content: space-between;
-                    width: 30%;
-                    min-width: 120px;
-
-                    &>li {
-                        padding: 5px;
-                        border-radius: 50%;
-                        border: 2.5px solid var(--color-primary);
-
-                        &>a {
-                            display: flex;
-                            flex-direction: row;
-                            align-items: center;
-                            justify-content: center;
-                            cursor: pointer;
-                        }
-                    }
-
-                    
-                }
-            }
+           
 
             &>p {
                 line-height: 24px;
