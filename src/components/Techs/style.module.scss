@@ -47,6 +47,17 @@
     }
 }
 
+@media(min-width: 513px) {
+    .techBox {
+        &>div {
+            margin-top: -63px;
+        }
+    }
+
+}
+
+
+
 @media (min-width: 878px) {
     .techBox {
         &>div {

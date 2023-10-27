@@ -7,7 +7,7 @@
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-evenly;
-        margin-top: -23px;
+        margin-top: 35px;
 
         .boxInfo {
             display: flex;
@@ -36,6 +36,39 @@
             }
         }
 
+    }
+}
+
+@media(min-width: 425px) {
+    .aboutmeBox {
+        &>div {
+            .boxImg {
+                width: 39%;
+            }
+
+        }
+    }
+}
+
+@media(min-width: 513px) {
+    .aboutmeBox {
+        &>div {
+            .boxImg {
+                width: 35%;
+            }
+
+        }
+    }
+}
+
+@media(min-width: 591px) {
+    .aboutmeBox {
+        &>div {
+            .boxImg {
+                width: 31%;
+            }
+
+        }
     }
 }
 
