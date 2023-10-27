@@ -127,7 +127,13 @@
     }
 }
 
-
+@media(min-width: 600px) {
+    .projectsBox {
+        &>div {
+          margin-left: 10px;
+        }
+    }
+}
 
 @media (min-width: 768px) {
     .projectsBox {

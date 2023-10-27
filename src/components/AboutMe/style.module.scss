@@ -72,6 +72,14 @@
     }
 }
 
+@media(min-width: 600px) {
+    .aboutmeBox {
+        &>div {
+          margin-left: 10px;
+        }
+    }
+}
+
 @media(min-width: 768px) {
     .aboutmeBox {
         &>div {
