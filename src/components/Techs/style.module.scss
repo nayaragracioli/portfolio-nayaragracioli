@@ -17,17 +17,14 @@
             gap: 10px;
 
             .infoName {
-                max-width: 7rem;
+                // max-width: 7rem;
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 10px;
             }
 
-            .infoText {
-                max-width: 550px;
-                line-height: 24px;
-            }
+            
         }
 
         .imgTech {
@@ -77,16 +74,6 @@
         &>div {
             width: 659px;
             max-width: 1200px;
-
-            .infoTech {
-                .infoText {
-                    max-width: 1400px;
-                    width: 100%;
-                }
-              
-
-              
-            }
 
             .imgTech {
                 max-width: 1200px;
