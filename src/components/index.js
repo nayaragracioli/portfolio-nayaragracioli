@@ -1,7 +1,8 @@
 import {Header} from "./Header";
-import {AboutMe} from "./AboutMe";
+import {Apresentation} from "./Apresentation";
 import {Techs} from "./Techs";
 import {MyProject} from "./MyProject";
-import {Contact} from "./Contact"
+import {AboutMe} from "./AboutMe";
+import {Footer} from "./Footer";
 
-export {Header, AboutMe, Techs, MyProject, Contact}
+export {Header, Apresentation, Techs, MyProject, AboutMe, Footer}

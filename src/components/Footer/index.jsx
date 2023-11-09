@@ -1,25 +1,14 @@
-import Styles from "./style.module.scss";
 import { FaLinkedin, FaGitAlt } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 
-export const Header = () => {
+export const Footer = () => {
 
-    return(
-
-        <header className={`container ${Styles.headerBox}`}>
+    return (
+        <footer>
             <div>
-                <h1 className="title3">Nayara</h1>
-                <div>
-                    <nav>
-                        <ul>
-                            <li><a className="paragraph" href="#projects">Projets</a></li>
-                            <li><a className="paragraph" href="#skills">Skills</a></li>
-                            <li><a className="paragraph" href="#aboutme">About me</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div className={Styles.boxLinks}>
-                    <ul>
+                <h2>Feel free to contact me</h2>
+                <p>nayaragraciolisa@gmail.com</p>
+                <ul>
                         <li>
                             <a href="https://www.linkedin.com/in/nayaragracioli/" target="blank">
                                 <FaLinkedin size={21} color="white" />
@@ -41,8 +30,7 @@ export const Header = () => {
                             </a>
                         </li>
                     </ul>
-                </div>
             </div>
-        </header>
+        </footer>
     )
 }

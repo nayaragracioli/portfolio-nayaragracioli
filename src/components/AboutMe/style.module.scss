@@ -1,110 +1,82 @@
-.aboutmeBox {
+.aboutMeBox {
     &>div {
-        max-width: 767px;
-        height: 50vh;
-        padding: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-evenly;
-        margin-top: 35px;
+        width: 100%;
+        max-width: 1200px;
+        height: 100vh;
+        margin-bottom: 2rem;
 
-        .boxInfo {
+        .contactInfo {
+            line-height: 12px;
+            padding: 1rem 0;
             display: flex;
             flex-direction: column;
-            gap: 10px;
-
-           
-
-            &>p {
-                line-height: 24px;
-            }
+            align-items: flex-start;
+            margin: 0 0 0 1rem;
+            gap: 15px;
+            margin-top: 340px;
         }
 
-         
+        .experience__sections {
 
-        .boxImg {
-            display: flex;
+            display: grid;
+            grid-template-columns: .6fr;
             justify-content: center;
-            align-items: center;
-            width: 47%;
-            order: -1;
-            margin: 0 auto;
 
-            &>img {
-                border-radius: 50%;
+            .experience__content {
+                display: flex;
+                flex-direction: column;
+
+                .experience__data {
+                    display: grid;
+                    grid-template-columns: 1fr max-content 1fr;
+                    column-gap: 1.5rem;
+
+                    &>div {
+                        .experience__rounder {
+                            display: inline-block;
+                            width: 13px;
+                            height: 13px;
+                            background-color: blue;
+                            border-radius: 50%;
+                        }
+
+                        .experience__line {
+                            display: block;
+                            width: 1px;
+                            height: 100%;
+                            background-color: blue;
+                            transform: translate(6px, -7px);
+                        }
+                    }
+                }
             }
-        }
-
-    }
-}
-
-@media(min-width: 425px) {
-    .aboutmeBox {
-        &>div {
-            .boxImg {
-                width: 39%;
-            }
-
-        }
-    }
-}
-
-@media(min-width: 513px) {
-    .aboutmeBox {
-        &>div {
-            .boxImg {
-                width: 35%;
-            }
-
-        }
-    }
-}
-
-@media(min-width: 591px) {
-    .aboutmeBox {
-        &>div {
-            .boxImg {
-                width: 31%;
-            }
-
         }
     }
 }
 
 @media(min-width: 600px) {
-    .aboutmeBox {
+    .aboutMeBox {
         &>div {
-          margin-left: 10px;
+            margin-left: 10px;
+            margin-top: 45px;
         }
     }
 }
 
 @media(min-width: 746px) {
-    .aboutmeBox {
+    .aboutMeBox {
         &>div {
-          width: 600px;
+            width: 600px;
         }
     }
 }
 
+
 @media(min-width: 768px) {
-    .aboutmeBox {
+    .aboutMeBox {
         &>div {
-            max-width: 1200px;
-            width: 100%;
-            flex-direction: row;
-            align-items: center;
-
-            .boxInfo {
-                width: 53%;
-                margin: auto;
-
-            }
-
-            .boxImg {
-              
-                width: 25%;
+            .contactInfo {
+                margin-top: 250px;
             }
         }
     }
