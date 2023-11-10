@@ -1,4 +1,4 @@
-import {AboutMe, Header, MyProject, Techs, Apresentation, Footer} from "../../components"
+import {AboutMe, Header, MyProject, Skills, Apresentation, Footer} from "../../components"
 
 export const HomePage = () => {
 
@@ -7,7 +7,7 @@ export const HomePage = () => {
             <Header/>
             <main>
                 <Apresentation/>
-                <Techs/>
+                <Skills/>
                 <MyProject/>
                 <AboutMe/>
             </main>
