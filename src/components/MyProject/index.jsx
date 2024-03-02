@@ -8,7 +8,7 @@ export const MyProject = () => {
     <section className={`container ${Styles.projectsBox}`} id="projects">
       <div>
         <div className={Styles.projectsInfo}>
-          <p className="specialText">Projects</p>
+          {/* <p className="specialText">Projects</p> */}
           <h2 className="title2">My Projects</h2>
         </div>
         <div className={Styles.projectsCard}>
@@ -28,7 +28,7 @@ export const MyProject = () => {
                           href="https://react-entrega-parte3-kenzie-hub-nayaragracioli.vercel.app/"
                           target="_blank"
                         >
-                          Live preview
+                          <p>Live preview</p>
                         </a>
                       </div>
                       <div>
@@ -36,7 +36,7 @@ export const MyProject = () => {
                           href="https://github.com/nayaragracioli/kenziehub-nayaragracioli"
                           target="_blank"
                         >
-                          GitHub
+                          <p>GitHub</p>
                         </a>
                       </div>
                     </div>
@@ -57,7 +57,7 @@ export const MyProject = () => {
                           href="https://react-entrega-s2-template-nu-kenzie-nayaragracioli.vercel.app/"
                           target="_blank"
                         >
-                          Live preview
+                          <p>Live preview</p>
                         </a>
                       </div>
                       <div>
@@ -65,7 +65,7 @@ export const MyProject = () => {
                           href="https://github.com/nayaragracioli/nukenzie-nayaragracioli"
                           target="_blank"
                         >
-                          GitHub
+                          <p>GitHub</p>
                         </a>
                       </div>
                     </div>
@@ -86,7 +86,7 @@ export const MyProject = () => {
                           href="https://react-entrega-s3-template-hamburgueria-nayaragracioli.vercel.app/"
                           target="_blank"
                         >
-                          Live preview
+                          <p>Live preview</p>
                         </a>
                       </div>
                       <div>
@@ -94,7 +94,7 @@ export const MyProject = () => {
                           href="https://github.com/nayaragracioli/hamburgueria-nayaragracioli"
                           target="_blank"
                         >
-                          GitHub
+                          <p>GitHub</p>
                         </a>
                       </div>
                     </div>
@@ -118,7 +118,7 @@ export const MyProject = () => {
                           href="https://react-entrega-s2-template-nu-kenzie-nayaragracioli.vercel.app/"
                           target="_blank"
                         >
-                          Live preview
+                          <p>Live preview</p>
                         </a>
                       </div>
                       <div>
@@ -126,7 +126,7 @@ export const MyProject = () => {
                           href="https://github.com/nayaragracioli/portfolio-nayaragracioli"
                           target="_blank"
                         >
-                          GitHub
+                          <p>GitHub</p>
                         </a>
                       </div>
                     </div>

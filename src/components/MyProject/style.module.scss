@@ -34,7 +34,6 @@
             .card {
               height: 100%;
               width: 100%;
-        
 
               .cardImg {
                 display: flex;
@@ -69,7 +68,6 @@
                     font-size: var(--font-size-4);
                     margin-left: 23px;
                   }
-
                 }
               }
 
@@ -92,6 +90,7 @@
 
                   color: var(--color-white);
                   background: var(--color-gradient);
+          
 
                   font-size: var(--font-size-3);
                   line-height: 19.36px;
@@ -101,6 +100,11 @@
                   &:hover {
                     background-color: var(--color-secondary);
                     filter: brightness(1.2);
+                  }
+                  & > a{
+                    & > p{
+                      color: var(--color-white);
+                    }
                   }
                 }
               }

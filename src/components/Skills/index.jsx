@@ -13,8 +13,8 @@ export const Skills = () => {
             <div>
                 <div className={Styles.infoTech}>
                     <div className={Styles.infoName}>
-                        <p className="specialText">Skills</p>
-                        <h2 className="title2">Soft & Hard Skills</h2>
+                        {/* <p className="specialText">Skills</p> */}
+                        <h2 className="title2"> Hard & Soft Skills</h2>
                     </div>
 
                 </div>

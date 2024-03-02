@@ -1,13 +1,14 @@
+import Styles from "./style.module.scss";
 import { FaLinkedin, FaGitAlt, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 
 export const Footer = () => {
 
     return (
-        <footer>
+        <footer className={`container ${Styles.footerBox}`}>
             <div>
                 <h2>Feel free to contact me</h2>
-                <p>nayaragraciolisa@gmail.com</p>
+                
                 <ul>
                         <li>
                             <a href="https://www.linkedin.com/in/nayaragracioli/" target="blank">
@@ -30,6 +31,7 @@ export const Footer = () => {
                             </a>
                         </li>
                     </ul>
+                <p>nayaragraciolisa@gmail.com</p>    
             </div>
         </footer>
     )
