@@ -1,113 +1,142 @@
 import Styles from "./style.module.scss";
-import { FaPager, FaGitAlt, FaReact, FaHtml5 } from "react-icons/fa";
-import { SiJavascript, SiSass } from "react-icons/si";
+import kenziehub from "../../assets/kenziehub.png";
+import nukenzie from "../../assets/nukenzie.png";
+import hamburgueria from "../../assets/hamburgueria.png";
 
 export const MyProject = () => {
-
-    return (
-        <section className={`container ${Styles.projectsBox}`} id="projects">
+  return (
+    <section className={`container ${Styles.projectsBox}`} id="projects">
+      <div>
+        <div className={Styles.projectsInfo}>
+          <p className="specialText">Projects</p>
+          <h2 className="title2">My Projects</h2>
+        </div>
+        <div className={Styles.projectsCard}>
+          <ul>
             <div>
-                <div className={Styles.projectsInfo}>
-                    <p className="specialText">Projects</p>
-                    <h2 className="title2">My Projects</h2>
+              <li>
+                <div className={Styles.card}>
+                  <div className={`${Styles.cardImg}`}>
+                    <img src={kenziehub} alt="Kenzie Hub" />
+                    <div className={Styles.cardDescription}>
+                      <h3>Kenzie Hub</h3>
+                      <p>Responsive ReactJs layout for Kenzie Hub project. React, JavaScript, SASS</p>
+                    </div>
+                    <div className={Styles.cardLink}>
+                      <div>
+                        <a
+                          href="https://react-entrega-parte3-kenzie-hub-nayaragracioli.vercel.app/"
+                          target="_blank"
+                        >
+                          Live preview
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://github.com/nayaragracioli/kenziehub-nayaragracioli"
+                          target="_blank"
+                        >
+                          GitHub
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className={Styles.projectsCard}>
-                    <ul>
-                        <div>
-                            <li>
-                                <div className={Styles.card}>
-                                    <div className={`${Styles.cardImg}`}>
-                                        <img src="https://vivariomarrecife.com.br/wp-content/uploads/2021/03/pastor-de-shetland.jpg" alt="Dog" />
-                                        <div className={Styles.cardLogos}>
-                                            <FaReact size={27} />
-                                            <FaHtml5 size={27} />
-                                            <SiJavascript size={27} />
-                                            <SiSass size={27} />
-                                        </div>
-                                    </div>
-                                    <div className={Styles.cardInfo}>
-                                        <h3 className="title3">NuKenzie</h3>
-                                        <p className="paragraph">Apresento uma página de Hamburgueria responsiva que tem funções de filtragem por nome, adição, exclusão e soma de valores do lanche escolhido além de dark mode. Este projeto é responsivo que foi realizado com React e SCSS.</p>
-                                        <div className={Styles.cardLink}>
-                                            <a href="https://react-entrega-s2-template-nu-kenzie-nayaragracioli.vercel.app/"><FaPager size={32} color="white" /></a>
-                                            <a href="https://github.com/nayaragracioli/portfolio-nayaragracioli"><FaGitAlt size={32} color="white" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-                        <div>
-                            <li>
-                                <div className={Styles.card}>
-                                    <div className={Styles.cardImg}>
-                                        <img src="https://vivariomarrecife.com.br/wp-content/uploads/2021/03/pastor-de-shetland.jpg" alt="Dog" />
-                                        <div className={Styles.cardLogos}>
-                                            <FaReact size={27} />
-                                            <FaHtml5 size={27} />
-                                            <SiJavascript size={27} />
-                                            <SiSass size={27} />
-                                        </div>
-                                    </div>
-                                    <div className={Styles.cardInfo}>
-                                        <h3 className="title3">NuKenzie</h3>
-                                        <p className="paragraph">Apresento uma página de Hamburgueria responsiva que tem funções de filtragem por nome, adição, exclusão e soma de valores do lanche escolhido além de dark mode. Este projeto é responsivo que foi realizado com React e SCSS.</p>
-                                        <div className={Styles.cardLink}>
-                                            <a href="https://react-entrega-s2-template-nu-kenzie-nayaragracioli.vercel.app/"><FaPager size={32} color="white" /></a>
-                                            <a href="https://github.com/nayaragracioli/portfolio-nayaragracioli"><FaGitAlt size={32} color="white" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-                        <div>
-                            <li>
-                                <div className={Styles.card}>
-                                    <div className={Styles.cardImg}>
-                                        <img src="https://vivariomarrecife.com.br/wp-content/uploads/2021/03/pastor-de-shetland.jpg" alt="Dog" />
-                                        <div className={Styles.cardLogos}>
-                                            <FaReact size={27} />
-                                            <FaHtml5 size={27} />
-                                            <SiJavascript size={27} />
-                                            <SiSass size={27} />
-                                        </div>
-                                    </div>
-                                    <div className={Styles.cardInfo}>
-                                        <h3 className="title3">NuKenzie</h3>
-                                        <p className="paragraph">Apresento uma página de Hamburgueria responsiva que tem funções de filtragem por nome, adição, exclusão e soma de valores do lanche escolhido além de dark mode. Este projeto é responsivo que foi realizado com React e SCSS.</p>
-                                        <div className={Styles.cardLink}>
-                                            <a href="https://react-entrega-s2-template-nu-kenzie-nayaragracioli.vercel.app/"><FaPager size={32} color="white" /></a>
-                                            <a href="https://github.com/nayaragracioli/portfolio-nayaragracioli"><FaGitAlt size={32} color="white" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-                        <div>
-                            <li>
-                                <div className={Styles.card}>
-                                    <div className={Styles.cardImg}>
-                                        <img src="https://vivariomarrecife.com.br/wp-content/uploads/2021/03/pastor-de-shetland.jpg" alt="Dog" />
-                                        <div className={Styles.cardLogos}>
-                                            <FaReact size={27} />
-                                            <FaHtml5 size={27} />
-                                            <SiJavascript size={27} />
-                                            <SiSass size={27} />
-                                        </div>
-                                    </div>
-                                    <div className={Styles.cardInfo}>
-                                        <h3 className="title3">NuKenzie</h3>
-                                        <p className="paragraph">Apresento uma página de Hamburgueria responsiva que tem funções de filtragem por nome, adição, exclusão e soma de valores do lanche escolhido além de dark mode. Este projeto é responsivo que foi realizado com React e SCSS.</p>
-                                        <div className={Styles.cardLink}>
-                                            <a href="https://react-entrega-s2-template-nu-kenzie-nayaragracioli.vercel.app/"><FaPager size={32} color="white" /></a>
-                                            <a href="https://github.com/nayaragracioli/portfolio-nayaragracioli"><FaGitAlt size={32} color="white" /></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-                    </ul>
+              </li>
+              <li>
+                <div className={Styles.card}>
+                  <div className={`${Styles.cardImg}`}>
+                    <img src={nukenzie} alt="NuKenzie" />
+                    <div className={Styles.cardDescription}>
+                      <h3>NuKenzie</h3>
+                      <p>Responsive ReactJs layout for NuKenzie project. React, JavaScript, SASS</p>
+                    </div>
+                    <div className={Styles.cardLink}>
+                      <div>
+                        <a
+                          href="https://react-entrega-s2-template-nu-kenzie-nayaragracioli.vercel.app/"
+                          target="_blank"
+                        >
+                          Live preview
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://github.com/nayaragracioli/nukenzie-nayaragracioli"
+                          target="_blank"
+                        >
+                          GitHub
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </li>
+              <li>
+                <div className={Styles.card}>
+                  <div className={`${Styles.cardImg}`}>
+                    <img src={hamburgueria} alt="Site Hamburgueria" />
+                    <div className={Styles.cardDescription}>
+                      <h3>Site Hamburgueria</h3>
+                      <p>Responsive ReactJs layout for Site Hamburgueria project. React, JavaScript, SASS</p>
+                    </div>
+                    <div className={Styles.cardLink}>
+                      <div>
+                        <a
+                          href="https://react-entrega-s3-template-hamburgueria-nayaragracioli.vercel.app/"
+                          target="_blank"
+                        >
+                          Live preview
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://github.com/nayaragracioli/hamburgueria-nayaragracioli"
+                          target="_blank"
+                        >
+                          GitHub
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className={Styles.card}>
+                  <div className={`${Styles.cardImg}`}>
+                    <img
+                      src="https://vivariomarrecife.com.br/wp-content/uploads/2021/03/pastor-de-shetland.jpg"
+                      alt="Dog"
+                    />
+                    <div className={Styles.cardDescription}>
+                      <h3>Dog</h3>
+                      <p>Responsive ReactJs layout for Site Hamburgueria project. React, JavaScript, SASS</p>
+                    </div>
+                    <div className={Styles.cardLink}>
+                      <div>
+                        <a
+                          href="https://react-entrega-s2-template-nu-kenzie-nayaragracioli.vercel.app/"
+                          target="_blank"
+                        >
+                          Live preview
+                        </a>
+                      </div>
+                      <div>
+                        <a
+                          href="https://github.com/nayaragracioli/portfolio-nayaragracioli"
+                          target="_blank"
+                        >
+                          GitHub
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
             </div>
-        </section>
-    )
-}
+          </ul>
+        </div>
+      </div>
+    </section>
+  );
+};

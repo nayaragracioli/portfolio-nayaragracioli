@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     // align-items: center;
-    margin-top: 29px;
+    // margin-top: 29px;
 
     .infoTech {
       display: flex;
@@ -41,6 +41,10 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+
+        & > h2 {
+          padding: 20px;
+        }
 
         & > div {
           & > ul {

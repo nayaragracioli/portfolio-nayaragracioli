@@ -2,8 +2,8 @@
     &>div {
         width: 100%;
         max-width: 1200px;
-        height: 100vh;
-        margin-bottom: 2rem;
+        height: 72vh;
+        // margin-bottom: 2rem;
 
         .contactInfo {
             line-height: 12px;
@@ -13,7 +13,7 @@
             align-items: flex-start;
             margin: 0 0 0 1rem;
             gap: 15px;
-            margin-top: 340px;
+            // margin-top: 340px;
         }
 
         .experience__sections {
@@ -36,7 +36,7 @@
                             display: inline-block;
                             width: 13px;
                             height: 13px;
-                            background-color: blue;
+                            background:var(--color-gradient);
                             border-radius: 50%;
                         }
 
@@ -44,7 +44,7 @@
                             display: block;
                             width: 1px;
                             height: 100%;
-                            background-color: blue;
+                            background:var(--color-gradient);
                             transform: translate(6px, -7px);
                         }
                     }
