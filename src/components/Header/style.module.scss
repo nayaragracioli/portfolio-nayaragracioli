@@ -11,56 +11,64 @@
         width: 100%;
         height: 56px;
 
-        &>div {
-            max-width: 250px;
-            width: 30%;
-
-            &>nav {
-
+        & > h1 {
+            font-size: 23px;
+        }
+        // &>div{
+            &>div {
+                // max-width: 250px;
+                // width: 30%;
+    
+                &>nav {
+                    width: 74px;
+                    height: 84px;
+                    &>ul {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 7px;
+                        // margin-bottom: 16px;
+    
+                        &>li {
+    
+                            &>a {
+                                color: var(--color-white);
+                            }
+                        }
+                    }
+    
+                }
+            }
+    
+            .boxLinks {
+                display: flex;
+                flex-direction: column;
+    
                 &>ul {
                     display: flex;
-                    flex-direction: column;
                     justify-content: space-between;
-                    align-items: center;
-                    gap: 4px;
-                    margin-bottom: 16px;
-
+                    width: 30%;
+                    min-width: 100px;
+                    gap: 6px;
+    
                     &>li {
-
+                        padding: 5px;
+                        border-radius: 50%;
+                        background: var(--color-gradient);
                         &>a {
-                            color: var(--color-white);
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                            cursor: pointer;
                         }
                     }
                 }
-
             }
-        }
+        // }
 
-        .boxLinks {
-            display: flex;
-            flex-direction: column;
-
-            &>ul {
-                display: flex;
-                justify-content: space-between;
-                width: 30%;
-                min-width: 120px;
-                gap: 22px;
-
-                &>li {
-                    padding: 5px;
-                    border-radius: 50%;
-                    background: var(--color-gradient);
-                    &>a {
-                        display: flex;
-                        flex-direction: row;
-                        align-items: center;
-                        justify-content: center;
-                        cursor: pointer;
-                    }
-                }
-            }
-        }
+        
     }
 }
 

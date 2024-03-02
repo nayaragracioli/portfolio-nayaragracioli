@@ -20,7 +20,7 @@ export const AboutMe = () => {
                                 <span className={Styles.experience__rounder}></span>
                                 <span className={Styles.experience__line}></span>
                             </div>
-                            <div>
+                            <div className={Styles.experience__text}> 
                                 <p>Worked out in which field I want to build a developer's career and started to learn Frontend Development.</p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export const AboutMe = () => {
                                 <span className={Styles.experience__rounder}></span>
                                 <span className={Styles.experience__line}></span>
                             </div>
-                            <div>
+                            <div className={Styles.experience__text}>
                                 <p>Worked out in which field I want to build a developer's career and started to learn Frontend Development.</p>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ export const AboutMe = () => {
                                 <span className={Styles.experience__rounder}></span>
                                 <span className={Styles.experience__line}></span>
                             </div>
-                            <div>
+                            <div className={Styles.experience__text}>
                                 <p>Worked out in which field I want to build a developer's career and started to learn Frontend Development.</p>
                             </div>
                         </div>

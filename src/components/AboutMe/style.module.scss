@@ -2,7 +2,7 @@
     &>div {
         width: 100%;
         max-width: 1200px;
-        height: 72vh;
+        height: 66vh;
         // margin-bottom: 2rem;
 
         .contactInfo {
@@ -12,8 +12,12 @@
             flex-direction: column;
             align-items: flex-start;
             margin: 0 0 0 1rem;
-            gap: 15px;
+            // gap: 15px;
             // margin-top: 340px;
+
+            & > h2{
+                height: 32px;
+            }
         }
 
         .experience__sections {
@@ -30,6 +34,11 @@
                     display: grid;
                     grid-template-columns: 1fr max-content 1fr;
                     column-gap: 1.5rem;
+
+                    .experience__text {
+                        width: 200px;
+                        height: 143px;
+                    }
 
                     &>div {
                         .experience__rounder {
