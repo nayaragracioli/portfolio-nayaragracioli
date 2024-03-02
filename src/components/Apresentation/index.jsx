@@ -1,4 +1,6 @@
 import Styles from "./style.module.scss";
+import photo from "../../assets/Foto Linkedin1.jpeg";
+import curriculum from "../../assets/CV - Nayara Sá.pdf";
 
 export const Apresentation = () => {
   return (
@@ -15,10 +17,10 @@ export const Apresentation = () => {
           </p>
         </div>
         <div className={Styles.boxButton}>
-          <a href="src/assets/CV - Nayara Sá.pdf" download="Currículo Nayara Gracioli de Sá.pdf">Download CV</a>
+          <a href={curriculum} download="Currículo Nayara Gracioli de Sá.pdf">Download CV</a>
         </div>
         <div className={Styles.boxImg}>
-          <img src="\src\assets\Foto Linkedin1.jpeg" alt="" />
+          <img src={photo} alt="" />
         </div>
       </div>
     </section>
