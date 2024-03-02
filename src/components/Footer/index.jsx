@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGitAlt } from "react-icons/fa";
+import { FaLinkedin, FaGitAlt, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 
 export const Footer = () => {
@@ -19,11 +19,11 @@ export const Footer = () => {
                                 <MdOutlineMail size={21} color="white" />
                             </a>
                         </li> */}
-                        {/* <li>
-                            <a href="" target="blank">
+                        <li>
+                        <a href="https://wa.me/+5541998779474" target="blank">
                                 <FaWhatsapp size={21} color="white" />
                             </a>
-                        </li> */}
+                        </li>
                         <li>
                             <a href="" target="blank">
                                 <FaGitAlt size={21} color="white" />

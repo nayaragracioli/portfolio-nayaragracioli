@@ -1,9 +1,10 @@
 import Styles from "./style.module.scss";
-import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithub, FaPeopleArrows, FaBook, FaClipboardList } from "react-icons/fa";
-import { SiJavascript, SiSass } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithub, FaPeopleArrows, FaBook, FaClipboardList, FaNodeJs, FaJava, FaWordpressSimple } from "react-icons/fa";
+import { SiJavascript, SiSass, SiExpress, SiPrisma, SiRedux } from "react-icons/si";
 import {MdGroups2} from "react-icons/md";
 import {RiSpeakLine} from "react-icons/ri";
 import {AiFillFile} from "react-icons/ai";
+import { BiLogoTypescript, BiLogoPostgresql, BiLogoSpringBoot } from "react-icons/bi";
 
 export const Skills = () => {
 
@@ -39,6 +40,14 @@ export const Skills = () => {
                                     <p className="paragraph">React</p>
                                 </li>
                                 <li>
+                                    <FaWordpressSimple  size={40} color="rgb(0 118 157)" />
+                                    <p className="paragraph">Wordpress</p>
+                                </li>
+                                <li>
+                                    <SiRedux  size={40} color="rgb(118 74 188)" />
+                                    <p className="paragraph">Redux</p>
+                                </li>
+                                <li>
                                     <SiSass size={40} color="rgb(204 102 153)" />
                                     <p className="paragraph">SASS</p>
                                 </li>
@@ -49,6 +58,34 @@ export const Skills = () => {
                                 <li>
                                     <FaGithub size={40} color="rgb(61 117 194)" />
                                     <p className="paragraph">GitHub</p>
+                                </li>
+                                <li>
+                                    <BiLogoTypescript size={40} color="rgb(49 120 198)" />
+                                    <p className="paragraph">TypeScript</p>
+                                </li>
+                                <li>
+                                    <FaNodeJs size={40} color="rgb(83 158 67)" />
+                                    <p className="paragraph">Nodejs</p>
+                                </li>
+                                <li>
+                                    <SiExpress size={40} color="rgb(130 130 130)" />
+                                    <p className="paragraph">Express</p>
+                                </li>
+                                <li>
+                                    <BiLogoPostgresql  size={40} color="rgb(51 103 145)" />
+                                    <p className="paragraph">PostgreSQL</p>
+                                </li>
+                                <li>
+                                    <SiPrisma  size={40}/>
+                                    <p className="paragraph">Prisma</p>
+                                </li>
+                                <li>
+                                    <FaJava   size={40} color="rgb(222 10 23)" />
+                                    <p className="paragraph">Java</p>
+                                </li>
+                                <li>
+                                    <BiLogoSpringBoot  size={40} color="rgb(109 179 63)" />
+                                    <p className="paragraph">Spring Boot</p>
                                 </li>
                             </ul>
                         </div>
