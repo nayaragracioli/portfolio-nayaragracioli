@@ -25,3 +25,11 @@
       }    
   }
 }
+
+@media (min-width: 1024px) {
+  .footerBox {
+    & > div {
+      width: 830px;
+    }
+  }
+}

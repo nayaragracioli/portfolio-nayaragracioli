@@ -7,8 +7,8 @@ export const HomePage = () => {
             <Header/>
             <main>
                 <Apresentation/>
-                <Skills/>
                 <MyProject/>
+                <Skills/>
                 <AboutMe/>
             </main>
             <Footer/>

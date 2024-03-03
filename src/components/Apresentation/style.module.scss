@@ -10,18 +10,36 @@
     justify-content: space-evenly;
     margin-top: 60px;
 
-    .boxInfo {
+    .boxInfo_Img {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 18px;
 
-      & > p {
-        line-height: 24px;
+      .boxInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        & > p {
+          line-height: 24px;
+        }
+      }
+
+      .boxImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 39%;
+        order: -1;
+        margin: 0 auto;
+
+        & > img {
+          border-radius: 8px;
+        }
       }
     }
 
     .boxButton {
-  
       & > a {
         display: flex;
         text-align: center;
@@ -29,7 +47,7 @@
         justify-content: center;
         gap: 10px;
 
-        width: 19.4rem;
+        // width: 19.4rem;
         height: 48px;
         padding: 13px 20px 13px 20px;
         border-radius: 8px;
@@ -47,19 +65,6 @@
           background-color: var(--color-secondary);
           filter: brightness(1.2);
         }
-      }
-    }
-
-    .boxImg {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 39%;
-      order: -1;
-      margin: 0 auto;
-
-      & > img {
-        border-radius: 8px;
       }
     }
   }
@@ -103,7 +108,7 @@
   }
 }
 
-@media (min-width: 746px) {
+@media (min-width: 755px) {
   .apresentationBox {
     & > div {
       width: 600px;
@@ -111,21 +116,39 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .apresentationBox {
     & > div {
-      max-width: 1200px;
-      width: 100%;
-      flex-direction: row;
-      align-items: center;
+      width: 830px;
+      max-width: 1440px;
+      padding: 0.5rem;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 49px;
 
-      .boxInfo {
-        width: 53%;
-        margin: auto;
+      .boxInfo_Img {
+        flex-direction: row;
+ 
+        .boxInfo {
+          gap: 30px;
+  
+          & > p {
+            line-height: 39px;
+          }
+        }
+  
+        .boxImg {
+          order: 0;
+        }
       }
 
-      .boxImg {
-        width: 25%;
+      .boxButton {
+        & > a {
+          width: 812px;
+  
+        }
       }
     }
   }

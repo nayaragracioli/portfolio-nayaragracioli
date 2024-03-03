@@ -79,7 +79,7 @@
   }
 }
 
-@media (min-width: 746px) {
+@media (min-width: 755px) {
   .skillsBox {
     & > div {
       width: 600px;
@@ -87,20 +87,11 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .skillsBox {
     & > div {
-      width: 659px;
-      max-width: 1200px;
-
-      .imgTech {
-        max-width: 1200px;
-
-        & > ul {
-          width: 100%;
-          overflow-x: hidden;
-        }
-      }
+      width: 830px;
     }
   }
 }
+

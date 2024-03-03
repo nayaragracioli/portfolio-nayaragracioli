@@ -8,9 +8,16 @@
     align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 755px) {
     .container {
         max-width: 1440px;
-        width: 100%;
+        
     }
 }
+
+// @media (min-width: 768px) {
+//     .container {
+//         max-width: 1440px;
+//         width: 100%;
+//     }
+// }

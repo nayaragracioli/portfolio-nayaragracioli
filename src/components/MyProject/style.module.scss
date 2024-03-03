@@ -134,13 +134,7 @@
   }
 }
 
-@media (min-width: 600px) {
-  .projectsBox {
-    & > div {
-      margin-left: 10px;
-    }
-  }
-}
+
 
 @media (min-width: 746px) {
   .projectsBox {
@@ -150,24 +144,34 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 755px) {
   .projectsBox {
     & > div {
       .projectsCard {
-        max-width: 1200px;
-
         & > ul {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: flex-start;
-          margin-top: 35px;
           & > div {
             & > li {
-              margin: 8px 0;
+              .card {
+                .cardImg {
+                  .cardDescription {
+                    width: 371px;
+                  }
+                }
+  
+                
+              }
             }
           }
         }
       }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .projectsBox {
+    & > div {
+      width: 830px;
     }
   }
 }

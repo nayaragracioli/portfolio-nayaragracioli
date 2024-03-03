@@ -73,7 +73,7 @@
     }
 }
 
-@media(min-width: 746px) {
+@media(min-width: 755px) {
     .aboutMeBox {
         &>div {
             width: 600px;
@@ -81,13 +81,12 @@
     }
 }
 
-
-@media(min-width: 768px) {
+@media(min-width: 1024px) {
     .aboutMeBox {
         &>div {
-            .contactInfo {
-                margin-top: 250px;
-            }
+            width: 830px;
         }
     }
 }
+
+
