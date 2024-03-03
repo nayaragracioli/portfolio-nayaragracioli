@@ -3,6 +3,8 @@ import kenziehub from "../../assets/kenziehub.png";
 import nukenzie from "../../assets/nukenzie.png";
 import hamburgueria from "../../assets/hamburgueria.png";
 import kenziemovie from "../../assets/kenziemovie.png";
+import bookapi from "../../assets/bookapi.png";
+import database from "../../assets/database.png";
 
 export const MyProject = () => {
   return (
@@ -125,6 +127,54 @@ export const MyProject = () => {
                       <div>
                         <a
                           href="https://github.com/Kenzie-Academy-Brasil-Developers/KenzieMovie-Group-T19"
+                          target="_blank"
+                        >
+                          <p>GitHub</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className={Styles.card}>
+                  <div className={`${Styles.cardImg}`}>
+                    <img
+                      src={bookapi}
+                      alt="Books API"
+                    />
+                    <div className={Styles.cardDescription}>
+                      <h3>Books API</h3>
+                      <p>Backend project. TypeScript, NodeJs, Express, Helmet, Zod</p>
+                    </div>
+                    <div className={Styles.cardLink}>
+                      <div>
+                        <a
+                          href="https://github.com/Kenzie-Academy-Brasil-Developers/booksapi-nayaragracioli"
+                          target="_blank"
+                        >
+                          <p>GitHub</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className={Styles.card}>
+                  <div className={`${Styles.cardImg}`}>
+                    <img
+                      src={database}
+                      alt="database creation"
+                    />
+                    <div className={Styles.cardDescription}>
+                      <h3>Database Creation</h3>
+                      <p>Backend project. PostgreSQL, NodeJs, DBeaver</p>
+                    </div>
+                    <div className={Styles.cardLink}>
+                      <div>
+                        <a
+                          href="https://github.com/Kenzie-Academy-Brasil-Developers/database-bookstore-nayaragracioli"
                           target="_blank"
                         >
                           <p>GitHub</p>
