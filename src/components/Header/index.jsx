@@ -29,7 +29,7 @@ export const Header = () => {
               </a>
             </li>
             <li>
-              <a href="" target="blank">
+              <a href="https://github.com/nayaragracioli" target="blank">
                 <FaGitAlt size={21} color="white" />
               </a>
             </li>
