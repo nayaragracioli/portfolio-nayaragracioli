@@ -153,3 +153,11 @@
     }
   }
 }
+
+@media (min-width: 1366px) {
+  .apresentationBox {
+    & > div {
+      margin-top: 78px;
+    }
+  }
+}

@@ -109,4 +109,15 @@
     }
 }
 
+@media(min-width: 1366px) {
+    .aboutMeBox {
+        &>div {
+            height: 90vh;
+
+           
+            
+        }
+    }
+}
+
 
