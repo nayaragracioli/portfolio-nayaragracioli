@@ -9,12 +9,10 @@ export const Apresentation = () => {
         <div className={Styles.boxInfo_Img}>
           <div className={Styles.boxInfo}>
             <h1 className="title1">
-              Hello, I'm Nayara Gracioli, frontend developer
+              Hello, I'm Nayara Gracioli, Frontend Developer
             </h1>
             <p className="paragraph">
-              Former digital-marketing specialist, seeking to apply competent
-              development skills with focus on collaboration, communication, and
-              passion
+            Graduated in Materials Engineering from the Federal University of Santa Catarina (UFSC) and currently studying Full Stack Development at Kenzie Academy Brasil, seeking to apply competent development skills with focus on collaboration, learning and passion.
             </p>
           </div>
           <div className={Styles.boxImg}>

@@ -126,27 +126,30 @@
       flex-wrap: nowrap;
       justify-content: center;
       align-items: flex-start;
-      gap: 49px;
+      gap: 27px;
 
       .boxInfo_Img {
         flex-direction: row;
- 
+        align-items: flex-end;
+
         .boxInfo {
           gap: 30px;
   
           & > p {
             line-height: 39px;
+            font-size: 1rem;
           }
         }
   
         .boxImg {
           order: 0;
+          width: 79%;
         }
       }
 
       .boxButton {
         & > a {
-          width: 812px;
+          width: 220px;
   
         }
       }

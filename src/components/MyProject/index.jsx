@@ -2,6 +2,7 @@ import Styles from "./style.module.scss";
 import kenziehub from "../../assets/kenziehub.png";
 import nukenzie from "../../assets/nukenzie.png";
 import hamburgueria from "../../assets/hamburgueria.png";
+import kenziemovie from "../../assets/kenziemovie.png";
 
 export const MyProject = () => {
   return (
@@ -105,17 +106,17 @@ export const MyProject = () => {
                 <div className={Styles.card}>
                   <div className={`${Styles.cardImg}`}>
                     <img
-                      src="https://vivariomarrecife.com.br/wp-content/uploads/2021/03/pastor-de-shetland.jpg"
-                      alt="Dog"
+                      src={kenziemovie}
+                      alt="Kenzie Movie"
                     />
                     <div className={Styles.cardDescription}>
-                      <h3>Dog</h3>
-                      <p>Responsive ReactJs layout for Site Hamburgueria project. React, JavaScript, SASS</p>
+                      <h3>Kenzie Movie</h3>
+                      <p>Responsive ReactJs layout for Kenzie Movie project. React, JavaScript, SASS, GitFlow</p>
                     </div>
                     <div className={Styles.cardLink}>
                       <div>
                         <a
-                          href="https://react-entrega-s2-template-nu-kenzie-nayaragracioli.vercel.app/"
+                          href="https://kenzie-movie-five.vercel.app/"
                           target="_blank"
                         >
                           <p>Live preview</p>
@@ -123,7 +124,7 @@ export const MyProject = () => {
                       </div>
                       <div>
                         <a
-                          href="https://github.com/nayaragracioli/portfolio-nayaragracioli"
+                          href="https://github.com/Kenzie-Academy-Brasil-Developers/KenzieMovie-Group-T19"
                           target="_blank"
                         >
                           <p>GitHub</p>
