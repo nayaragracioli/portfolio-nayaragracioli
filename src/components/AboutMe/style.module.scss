@@ -3,7 +3,7 @@
         box-shadow: 0px 7px 8px -8px var(--color-secondary);
         width: 100%;
         max-width: 1200px;
-        height: 66vh;
+        height: 75vh;
         // margin-bottom: 2rem;
 
         .contactInfo {
@@ -113,9 +113,6 @@
     .aboutMeBox {
         &>div {
             height: 94vh;
-
-           
-            
         }
     }
 }
