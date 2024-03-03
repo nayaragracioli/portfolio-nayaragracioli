@@ -3,8 +3,6 @@
     box-shadow: 2px 7px 10px -9px var(--color-secondary);
     width: 100%;
     max-width: 1200px;
-    // height: 100vh;
-    // margin-bottom: 2rem;
 
     .projectsInfo {
       line-height: 12px;
@@ -172,6 +170,124 @@
   .projectsBox {
     & > div {
       width: 830px;
+      max-width: 1440px;
+
+      .projectsInfo {
+        // line-height: 12px;
+        // padding: 1rem 0;
+        // display: flex;
+        // flex-direction: column;
+        align-items: flex-start;
+        // margin: 0 0 0 1rem;
+        // gap: 15px;
+        padding: 0.5rem;
+      }
+
+      .projectsCard {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        // margin-top: -48px;
+  
+        & > ul {
+          display: flex;
+          & > div {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            justify-items: center;
+
+            & > li {
+              width: 276px;
+              // height: 388px;
+              // margin: 25px 0;
+  
+              .card {
+                height: 100%;
+                width: 94%;
+  
+                .cardImg {
+                  // display: flex;
+                  // flex-direction: column;
+                  // width: 102%;
+                  // height: 94%;
+                  // border: 1.6px solid var(--color-primary);
+                  // box-sizing: border-box;
+                  // border-radius: 20px;
+  
+                  // & > img {
+                  //   border-radius: 18px;
+                  //   padding: 10px;
+                  //   width: 392px;
+                  //   height: 177px;
+                  // }
+  
+                  .cardDescription {
+                    // display: flex;
+                    // flex-direction: column;
+                    // align-items: center;
+                    // justify-content: space-evenly;
+                    width: 268px;
+                    // height: 119px;
+                    // line-height: 32px;
+  
+                    // & > h3 {
+                    //   font-size: var(--font-size-3);
+                    // }
+  
+                    & > p {
+                      // font-size: var(--font-size-4);
+                      margin-left: 13px;
+                      // color: var(--color-gray);
+                    }
+                  }
+                }
+  
+                .cardLink {
+                  // display: flex;
+                  // flex-direction: row;
+                  // flex-direction: row;
+                  justify-content: space-around;
+                  margin-top: 10px;
+                  
+                  // & > div {
+                  //   display: flex;
+                  //   text-align: center;
+                  //   align-items: center;
+                  //   justify-content: center;
+  
+                  //   width: 7.5rem;
+                  //   height: 39px;
+                  //   padding: 5px;
+                  //   border-radius: 8px;
+  
+                  //   color: var(--color-white);
+                  //   background: var(--color-gradient);
+            
+  
+                  //   font-size: var(--font-size-3);
+                  //   line-height: 19.36px;
+  
+                  //   transition: 0.3s;
+  
+                  //   &:hover {
+                  //     background-color: var(--color-secondary);
+                  //     filter: brightness(1.2);
+                  //   }
+                  //   & > a{
+                  //     & > p{
+                  //       color: var(--color-white);
+                  //     }
+                  //   }
+                  // }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
