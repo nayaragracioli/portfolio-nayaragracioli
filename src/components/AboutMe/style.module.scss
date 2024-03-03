@@ -78,6 +78,33 @@
         &>div {
             width: 830px;
             max-width: 1440px;
+
+            .contactInfo {
+                padding: 0.9rem;
+                align-items: flex-start;
+
+            }
+
+            .experience__sections {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+    
+                .experience__content {
+    
+                    .experience__data {
+                        display: flex;
+
+                        .experience__text {
+                            width: 574px;
+                        }
+    
+                        &>div {
+                            padding: 0 0.9rem;
+                        }
+                    }
+                }
+            }
         }
     }
 }

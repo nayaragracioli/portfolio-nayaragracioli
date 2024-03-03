@@ -97,17 +97,18 @@
 }
 
 @media (min-width: 755px) {
-    .headerBox {
-      & > div {
-        width: 600px;
-      }
+  .headerBox {
+    & > div {
+      width: 600px;
     }
   }
+}
 
 @media (min-width: 1024px) {
   .headerBox {
     & > div {
       width: 830px;
+      max-width: 1440px;
     }
   }
 }

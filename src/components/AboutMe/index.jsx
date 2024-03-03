@@ -21,7 +21,7 @@ export const AboutMe = () => {
                                 <span className={Styles.experience__line}></span>
                             </div>
                             <div className={Styles.experience__text}> 
-                                <p>Worked out in which field I want to build a developer's career and started to learn Frontend Development.</p>
+                                <p>Worked out in which field I want to build a developer's career and started to learn Frontend Development.Worked out in which field I want to build a developer's career and started to learn Frontend Development.</p>
                             </div>
                         </div>
                         <div className={Styles.experience__data}>
