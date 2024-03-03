@@ -4,36 +4,39 @@
     background-color: var(--color-black);
 
     &>div {
-        box-shadow: 2px 7px 10px -9px var(--color-primary);
+        box-shadow: 2px 7px 10px -9px var(--color-secondary);
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        height: 56px;
+        height: 74px;
+        gap: 17px;
 
         & > h1 {
             font-size: 23px;
         }
         // &>div{
-            &>div {
+            .boxMenu {
                 // max-width: 250px;
                 // width: 30%;
-    
+                margin-right: 115px;
                 &>nav {
-                    width: 74px;
-                    height: 84px;
+                    width: 195px;
+                    height: 25px;
+                    color: var(--color-gray);
                     &>ul {
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row;
                         justify-content: space-between;
                         align-items: center;
-                        gap: 7px;
+                        // gap: 7px;
                         // margin-bottom: 16px;
     
                         &>li {
     
                             &>a {
-                                color: var(--color-white);
+                                color: var(--color-gray);
                             }
                         }
                     }

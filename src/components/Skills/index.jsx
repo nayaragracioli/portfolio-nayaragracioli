@@ -20,7 +20,7 @@ export const Skills = () => {
                 </div>
                 <div className={Styles.imgTech}>
                     <div>
-                        <h2>Hard Skills</h2>
+                        <h2 className="title3">Hard Skills</h2>
                         <div>
                             <ul>
                                 <li>
@@ -91,7 +91,7 @@ export const Skills = () => {
                         </div>
                     </div>
                     <div>
-                        <h2>Soft Skills</h2>
+                        <h2 className="title3">Soft Skills</h2>
                         <div>
                             <ul>
                                 <li>
