@@ -11,7 +11,6 @@ export const MyProject = () => {
     <section className={`container ${Styles.projectsBox}`} id="projects">
       <div>
         <div className={Styles.projectsInfo}>
-          {/* <p className="specialText">Projects</p> */}
           <h2 className="title2">My Projects</h2>
         </div>
         <div className={Styles.projectsCard}>

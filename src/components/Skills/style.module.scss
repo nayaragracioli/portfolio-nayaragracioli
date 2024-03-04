@@ -1,7 +1,6 @@
 .skillsBox {
   & > div {
     box-shadow: 0px 7px 8px -8px var(--color-secondary);
-    // height: 94vh;
     max-width: 767px;
     padding: 1rem;
     width: 100%;
@@ -9,7 +8,6 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    // margin-top: 29px;
 
     .infoTech {
       display: flex;
@@ -95,50 +93,26 @@
       align-items: flex-start;
       margin-left: 0px;
 
-      // .infoTech {
-      //   // display: flex;
-      //   // flex-direction: column;
-      //   // gap: 10px;
-  
-      //   .infoName {
-      //     // max-width: 7rem;
-      //     display: flex;
-      //     flex-direction: column;
-      //     align-items: flex-start;
-      //     gap: 10px;
-      //   }
-      // }
 
       .imgTech {
         color: var(--white);
         padding: 1rem 0;
         max-width: 1440px;
   
-        // display: flex;
-        // text-align: initial;
         flex-direction: row;
         flex-wrap: nowrap;
-        // align-content: center;
         align-items: flex-start;
         gap: 234px;
   
         & > div {
-          // display: flex;
-          // flex-direction: column;
-          // flex-wrap: wrap;
-          // align-items: center;
-          // justify-content: center;
           align-items: flex-start;
   
           & > h2 {
-            // color: var(--color-gray);
             padding: 20px 0;
           }
   
           & > div {
             & > ul {
-              // display: grid;
-              // grid-template-columns: 4fr 4fr 3fr;
               justify-items: start;
   
               & > li {

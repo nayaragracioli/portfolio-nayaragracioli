@@ -1,13 +1,11 @@
 import Styles from "./style.module.scss";
 import { FaLinkedin, FaGitAlt, FaWhatsapp } from "react-icons/fa";
-import { MdOutlineMail } from "react-icons/md";
 
 export const Header = () => {
   return (
     <header className={`container ${Styles.headerBox}`}>
       <div>
         <h1>Nayara Gracioli</h1>
-        {/* <div> */}
         <div className={Styles.boxLinks}>
           <ul>
             <li>
@@ -18,11 +16,6 @@ export const Header = () => {
                 <FaLinkedin size={21} color="white" />
               </a>
             </li>
-            {/* <li>
-                            <a href="" target="blank">
-                                <MdOutlineMail size={21} color="white" />
-                            </a>
-                        </li> */}
             <li>
               <a href="https://wa.me/+5541998779474" target="blank">
                 <FaWhatsapp size={21} color="white" />
@@ -56,7 +49,6 @@ export const Header = () => {
             </ul>
           </nav>
         </div>
-        {/* </div> */}
       </div>
     </header>
   );

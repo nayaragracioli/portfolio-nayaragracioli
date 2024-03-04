@@ -10,7 +10,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      // margin: 0 0 0 1rem;
       gap: 15px;
     }
 
@@ -21,7 +20,6 @@
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      // margin-top: -48px;
 
       & > ul {
         & > div {
@@ -173,13 +171,7 @@
       max-width: 1440px;
 
       .projectsInfo {
-        // line-height: 12px;
-        // padding: 1rem 0;
-        // display: flex;
-        // flex-direction: column;
         align-items: flex-start;
-        // margin: 0 0 0 1rem;
-        // gap: 15px;
         padding: 0.5rem;
       }
 
@@ -190,7 +182,6 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        // margin-top: -48px;
   
         & > ul {
           display: flex;
@@ -201,81 +192,27 @@
 
             & > li {
               width: 276px;
-              // height: 388px;
-              // margin: 25px 0;
   
               .card {
                 height: 100%;
                 width: 94%;
   
                 .cardImg {
-                  // display: flex;
-                  // flex-direction: column;
-                  // width: 102%;
-                  // height: 94%;
-                  // border: 1.6px solid var(--color-primary);
-                  // box-sizing: border-box;
-                  // border-radius: 20px;
-  
-                  // & > img {
-                  //   border-radius: 18px;
-                  //   padding: 10px;
-                  //   width: 392px;
-                  //   height: 177px;
-                  // }
   
                   .cardDescription {
-                    // display: flex;
-                    // flex-direction: column;
-                    // align-items: center;
-                    // justify-content: space-evenly;
                     width: 268px;
-                    // height: 119px;
-                    // line-height: 32px;
-  
-                    // & > h3 {
-                    //   font-size: var(--font-size-3);
-                    // }
   
                     & > p {
-                      // font-size: var(--font-size-4);
                       margin-left: 13px;
-                      // color: var(--color-gray);
                     }
                   }
                 }
   
                 .cardLink {
-                  // display: flex;
-                  // flex-direction: row;
-                  // flex-direction: row;
                   justify-content: space-around;
                   margin-top: 10px;
                   
                   & > div {
-                    // display: flex;
-                    // text-align: center;
-                    // align-items: center;
-                    // justify-content: center;
-  
-                    // width: 7.5rem;
-                    // height: 39px;
-                    // padding: 5px;
-                    // border-radius: 8px;
-  
-                    // color: var(--color-white);
-                    // background: var(--color-gradient);
-            
-  
-                    // font-size: var(--font-size-3);
-                    // line-height: 19.36px;
-  
-                    // transition: 0.3s;
-  
-                    // &:hover {
-                    //   background-color: var(--color-secondary);
-                    //   filter: brightness(1.2);
-                    // }
                     & > a{
                       & > p{
                         font-size: var(--font-size-3);

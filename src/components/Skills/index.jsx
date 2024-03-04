@@ -1,5 +1,5 @@
 import Styles from "./style.module.scss";
-import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithub, FaPeopleArrows, FaBook, FaClipboardList, FaNodeJs, FaJava, FaWordpressSimple } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithub, FaBook, FaClipboardList, FaNodeJs, FaJava, FaWordpressSimple } from "react-icons/fa";
 import { SiJavascript, SiSass, SiExpress, SiPrisma, SiRedux } from "react-icons/si";
 import {MdGroups2} from "react-icons/md";
 import {RiSpeakLine} from "react-icons/ri";
@@ -13,7 +13,6 @@ export const Skills = () => {
             <div>
                 <div className={Styles.infoTech}>
                     <div className={Styles.infoName}>
-                        {/* <p className="specialText">Skills</p> */}
                         <h2 className="title2"> Hard & Soft Skills</h2>
                     </div>
 

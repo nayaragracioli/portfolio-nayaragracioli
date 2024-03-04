@@ -20,9 +20,6 @@
     }
 
     .boxMenu {
-      // max-width: 250px;
-      // width: 30%;
-      // margin-right: 115px;
       & > nav {
         width: 207px;
         height: 25px;
@@ -32,8 +29,6 @@
           flex-direction: row;
           justify-content: space-between;
           align-items: center;
-          // gap: 7px;
-          // margin-bottom: 16px;
 
           & > li {
             & > a {

@@ -1,6 +1,5 @@
 import Styles from "./style.module.scss";
 import { FaLinkedin, FaGitAlt, FaWhatsapp } from "react-icons/fa";
-import { MdOutlineMail } from "react-icons/md";
 
 export const Footer = () => {
 
@@ -15,11 +14,6 @@ export const Footer = () => {
                                 <FaLinkedin size={21} color="white" />
                             </a>
                         </li>
-                        {/* <li>
-                            <a href="" target="blank">
-                                <MdOutlineMail size={21} color="white" />
-                            </a>
-                        </li> */}
                         <li>
                         <a href="https://wa.me/+5541998779474" target="blank">
                                 <FaWhatsapp size={21} color="white" />

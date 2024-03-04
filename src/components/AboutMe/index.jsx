@@ -7,7 +7,6 @@ export const AboutMe = () => {
         <section className={`container ${Styles.aboutMeBox}`} id="aboutme">
             <div>
                 <div className={Styles.contactInfo}>
-                    {/* <p className="specialText">About Me</p> */}
                     <h2 className="title2">About Me</h2>
                 </div>
                 <div className={Styles.experience__sections}>
