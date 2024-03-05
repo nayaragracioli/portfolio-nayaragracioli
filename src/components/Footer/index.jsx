@@ -1,5 +1,5 @@
 import Styles from "./style.module.scss";
-import { FaLinkedin, FaGitAlt, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 
 export const Footer = () => {
 
@@ -21,7 +21,7 @@ export const Footer = () => {
                         </li>
                         <li>
                             <a href="https://github.com/nayaragracioli" target="blank">
-                                <FaGitAlt size={21} color="white" />
+                                <FaGithub size={21} color="white" />
                             </a>
                         </li>
                     </ul>
