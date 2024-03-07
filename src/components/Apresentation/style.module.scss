@@ -133,6 +133,10 @@
 
         .boxInfo {
           gap: 30px;
+
+          & > h1 {
+            line-height: 33px;
+          }
   
           & > p {
             line-height: 39px;
