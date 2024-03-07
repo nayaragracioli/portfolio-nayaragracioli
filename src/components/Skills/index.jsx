@@ -1,6 +1,6 @@
 import Styles from "./style.module.scss";
 import { FaHtml5, FaCss3Alt, FaReact, FaGitAlt, FaGithub, FaBook, FaClipboardList, FaNodeJs, FaJava, FaWordpressSimple } from "react-icons/fa";
-import { SiJavascript, SiSass, SiExpress, SiPrisma, SiRedux } from "react-icons/si";
+import { SiJavascript, SiSass, SiExpress, SiPrisma, SiRedux, SiJest } from "react-icons/si";
 import {MdGroups2} from "react-icons/md";
 import {RiSpeakLine} from "react-icons/ri";
 import {AiFillFile} from "react-icons/ai";
@@ -85,6 +85,10 @@ export const Skills = () => {
                                 <li>
                                     <BiLogoSpringBoot  size={40} color="rgb(109 179 63)" />
                                     <p className="paragraph">Spring Boot</p>
+                                </li>
+                                <li>
+                                    <SiJest size={40} color="rgb(154 67 80)" />
+                                    <p className="paragraph">Jest</p>
                                 </li>
                             </ul>
                         </div>
