@@ -42,10 +42,10 @@ export const Skills = () => {
                                     <FaWordpressSimple  size={40} color="rgb(0 118 157)" />
                                     <p className="paragraph">Wordpress</p>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <SiRedux  size={40} color="rgb(118 74 188)" />
                                     <p className="paragraph">Redux</p>
-                                </li>
+                                </li> */}
                                 <li>
                                     <SiSass size={40} color="rgb(204 102 153)" />
                                     <p className="paragraph">SASS</p>
@@ -78,14 +78,14 @@ export const Skills = () => {
                                     <SiPrisma  size={40}/>
                                     <p className="paragraph">Prisma</p>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <FaJava   size={40} color="rgb(222 10 23)" />
                                     <p className="paragraph">Java</p>
-                                </li>
-                                <li>
+                                </li> */}
+                                {/* <li>
                                     <BiLogoSpringBoot  size={40} color="rgb(109 179 63)" />
                                     <p className="paragraph">Spring Boot</p>
-                                </li>
+                                </li> */}
                                 <li>
                                     <SiJest size={40} color="rgb(154 67 80)" />
                                     <p className="paragraph">Jest</p>
