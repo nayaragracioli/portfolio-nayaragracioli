@@ -18,6 +18,10 @@
       width: 131px;
       height: 25px;
       gap: 28px;
+
+      &>:hover{
+        transform: scale(1.1);
+      }
     }
 
     & > p {

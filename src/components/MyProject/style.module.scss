@@ -31,6 +31,9 @@
             .card {
               height: 100%;
               width: 100%;
+              &>:hover{
+                transform: scale(1.03);
+              }
 
               .cardImg {
                 display: flex;
@@ -40,6 +43,7 @@
                 border: 1.6px solid var(--color-primary);
                 box-sizing: border-box;
                 border-radius: 20px;
+                
 
                 & > img {
                   border-radius: 18px;
